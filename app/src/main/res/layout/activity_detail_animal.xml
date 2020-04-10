@@ -2,7 +2,6 @@
 <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
@@ -24,7 +23,8 @@
                     android:scaleType="fitXY"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@android:color/darker_gray"/>
+                    android:src="@android:color/darker_gray"
+                    android:contentDescription="TODO"/>
 
         </FrameLayout>
 
