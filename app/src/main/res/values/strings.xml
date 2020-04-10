@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Animo</string>
+    <string name="animal_name">Nama Hewan</string>
+    <string name="detail">Detail</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">With CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="name">Hanavi Alvarel</string>
+    <string name="email">hanavialvarel@gmail.com</string>
+</resources>
