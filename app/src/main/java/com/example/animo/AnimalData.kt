@@ -1,4 +1,4 @@
-import com.example.animo.R
+package com.example.animo
 
 object AnimalData {
     private val animalNames = arrayOf(

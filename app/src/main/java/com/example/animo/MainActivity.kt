@@ -1,7 +1,5 @@
 package com.example.animo
 
-import Animal
-import CardviewAnimalAdapter
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +7,6 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.activity_detail_animal.*
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvAnimals: RecyclerView

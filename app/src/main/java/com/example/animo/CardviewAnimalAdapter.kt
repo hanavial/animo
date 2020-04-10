@@ -1,3 +1,5 @@
+package com.example.animo
+
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
@@ -7,15 +9,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.animo.DetailAnimalActivity
-import com.example.animo.R
-import java.util.*
 import kotlin.collections.ArrayList
 
 class CardviewAnimalAdapter(private val listAnimals: ArrayList<Animal>) : RecyclerView.Adapter<CardviewAnimalAdapter.CardViewViewHolder>() {
 
 
-    override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): CardViewViewHolder{
+    override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): CardViewViewHolder {
         val view: View = LayoutInflater.from(viewGroup.context).inflate(R.layout.item_cardview_animal, viewGroup, false)
         return CardViewViewHolder(view)
     }
