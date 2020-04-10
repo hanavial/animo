@@ -12,10 +12,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".AboutActivity">
-        </activity>
-        <activity android:name=".DetailAnimalActivity">
-        </activity>
+
         <activity
                 android:name=".SplashActivity"
                 android:theme="@style/AppTheme.NoActionBar">
@@ -26,6 +23,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".AboutActivity">
+
+        </activity>
+        <activity android:name=".DetailAnimalActivity">
+
         </activity>
     </application>
 
